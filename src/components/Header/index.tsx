@@ -9,8 +9,8 @@ export function Header() {
       </figure>
       <NavBar>
         <div>
-          <Link to="/">Início</Link>
-          <Link to="/comentario">Minhas Cartas</Link>
+          <Link to="/">INÍCIO</Link>
+          <Link to="/comentario">CARTAS</Link>
         </div>
       </NavBar>
     </SHeader>

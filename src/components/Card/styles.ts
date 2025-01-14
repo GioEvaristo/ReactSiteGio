@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 
 export const Section = styled.section`
-  background-color: ${colors.secondary};
+  background-color: ${colors.terciary};
   padding: 0.5rem;
   border-radius: 0.5rem;
   aside {

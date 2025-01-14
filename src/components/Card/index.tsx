@@ -12,11 +12,11 @@ export const Card = ({ data, assunto, comentario }: ICard) => {
         <p>{data}</p>
       </aside>
       <aside>
-        <h5>Assunto:</h5>
+        <h5>Título:</h5>
         <p>{assunto}</p>
       </aside>
       <aside>
-        <h5>Comentário:</h5>
+        <h5>Desabafo:</h5>
         <p>{comentario}</p>
       </aside>
     </Section>

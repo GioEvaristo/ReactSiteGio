@@ -7,13 +7,13 @@ export const GlobalStyle = createGlobalStyle`
     outline: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
   }
   
 `
 export const colors = {
   primary: "#FF7BC4",
   secondary: "#a80960",
+  terciary: "#47d5eea7",
   black: "#000",
   white: "#fff"
 }

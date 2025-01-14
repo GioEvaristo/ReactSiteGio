@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
   img {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
+    width: 760px;
   }
 `
