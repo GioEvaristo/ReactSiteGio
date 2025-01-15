@@ -5,12 +5,13 @@ import { ComponentCard } from '../../components'
 export function Comentario() {
   return (
     <S.Section>
+      <h1>CARTAS</h1>
       {dados.map(item => (
         <ComponentCard
           key={item.id}
           data={item.data}
-          assunto={item.assunto}
-          comentario={item.comentario}
+          titulo={item.titulo}
+          desabafo={item.desabafo}
         />
       ))}
     </S.Section>

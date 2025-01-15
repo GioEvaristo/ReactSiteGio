@@ -1,10 +1,10 @@
 import { Section } from "./styles";
 export interface ICard {
   data: string
-  assunto: string
-  comentario: string
+  titulo: string
+  desabafo: string
 }
-export const Card = ({ data, assunto, comentario }: ICard) => {
+export const Card = ({ data, titulo, desabafo }: ICard) => {
   return (
     <Section>
       <aside>
@@ -13,11 +13,11 @@ export const Card = ({ data, assunto, comentario }: ICard) => {
       </aside>
       <aside>
         <h5>Título:</h5>
-        <p>{assunto}</p>
+        <p>{titulo}</p>
       </aside>
       <aside>
         <h5>Desabafo:</h5>
-        <p>{comentario}</p>
+        <p>{desabafo}</p>
       </aside>
     </Section>
   );

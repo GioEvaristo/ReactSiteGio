@@ -1,10 +1,13 @@
 import { Section } from './styles'
-import img from "../../assets/tvhome.png"
+import img from "../../assets/gatoscartas.png"
 
 export function Home() {
   return (
     <Section>
-      <img src={img} alt="TV"/>
+      <div>
+      <h1>Sinta-se a vontade para desabafar!</h1>
+      <img src={img} alt="Gatos"/>
+      </div>
     </Section>
   )
 }
