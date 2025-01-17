@@ -10,7 +10,7 @@ export function Comentario() {
         <ComponentCard
           key={item.id}
           data={item.data}
-          titulo={item.titulo}
+          nickname={item.nickname}
           desabafo={item.desabafo}
         />
       ))}
