@@ -1,4 +1,4 @@
-import { Section } from "./styles";
+import { SSection } from "./styles";
 export interface ICard {
   data: string
   nickname: string
@@ -6,7 +6,7 @@ export interface ICard {
 }
 export const Card = ({ data, nickname, desabafo }: ICard) => {
   return (
-    <Section>
+    <SSection>
       <aside>
         <h5>Data:</h5>
         <p>{data}</p>
@@ -19,6 +19,6 @@ export const Card = ({ data, nickname, desabafo }: ICard) => {
         <h5>Desabafo:</h5>
         <p>{desabafo}</p>
       </aside>
-    </Section>
+    </SSection>
   );
 };

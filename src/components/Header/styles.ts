@@ -20,7 +20,7 @@ export const SHeader = styled.header`
   }
 `
 
-export const NavBar = styled.nav`
+export const SNavBar = styled.nav`
   /* Navegação */
   display: flex;
   align-items: center;
