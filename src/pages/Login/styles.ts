@@ -1,26 +1,25 @@
 import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 export const SSection = styled.section`
-  height: 60vh;
+  height: 40rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 2rem;
   h1 {
-    color: ${colors.primary};
-    font-weight: 500;
+    color: ${colors.secondary};
+    font-weight: 4rem;
     margin-bottom: 2rem;
     font-size: 2rem;
   }
   form {
-    background-color: ${colors.primary};
-    border: 0.2rem solid ${colors.primary};
-    border-radius: 1rem;
-    padding: 1.5rem;
+    background-color: ${colors.terciary};
+    border: 0.2rem solid ${colors.secondary};
+    border-radius: 0.5rem;
+    padding: 2rem;
     div {
       background-color: ${colors.white};
-      border: 0.15rem solid ${colors.primary};
+      border: 0.15rem solid ${colors.secondary};
       border-radius: 0.6rem;
       display: flex;
       margin: 0.5rem 0;

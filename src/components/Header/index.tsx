@@ -20,7 +20,7 @@ export function Header() {
           <Link to="/comentario">CARTAS</Link>
           {user ? (
             <>
-            <Link to="/adm">Administrativa</Link>
+            <Link to="/adm">ADMINISTRATIVA</Link>
             <button onClick={logout}>{user.nome} <GrLogout /></button>
             </>
           ) : (
