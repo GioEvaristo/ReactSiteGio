@@ -71,7 +71,7 @@ export function Cadastrar() {
           />
         </div>
         <p>
-          Já possui conta? <Link to="/login">Faça o login</Link>
+          Já possui conta? <Link to="/login">Faça o login </Link>
           <button type="submit">Salvar</button>
         </p>
       </form>
